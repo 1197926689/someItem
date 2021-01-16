@@ -1,10 +1,12 @@
+import app from '@/pages/test1/test1';
 import React from 'react';
 import styles from './index.css';
+import App from '../pages/test1/test1'
 
 const BasicLayout: React.FC = props => {
   return (
-    <div className={styles.normal}>
-      <h1 className={styles.title}>Yay! Welcome to umi!</h1>
+    <div>
+      <App />
       {props.children}
     </div>
   );
