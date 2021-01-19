@@ -23,10 +23,9 @@ const lazyload = ()=>{
 
     function lazyLoad(img:any) {
         var H = document.documentElement.clientHeight;//获取可视区域高度
-        var S = document.documentElement.scrollTop || document.body.scrollTop;
+        var S = document.documentElement.scrollTop || document.body.scrollTop;//获取滚动条距顶部高度
         
         for (var i = 0; i < img.length; i++) {
-            console.log(getTop(img[i]));
             if (H + S > getTop(img[i])) {
                 img[i].src = img[i].getAttribute('data-src');
             }
