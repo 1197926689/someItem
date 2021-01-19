@@ -6,3 +6,5 @@ drag.tsx
 dropdown.tsx
 # 图片懒加载组件
 lazyload.tsx
+# 分页组件
+pagination.tsx
