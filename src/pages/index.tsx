@@ -1,11 +1,8 @@
 import React from 'react';
-import styles from './index.css';
 import App from './test1/drag';
 import Dropdown from './test1/dropdown';
 import Lazyload from './test1/lazyload';
 import Pagination from './test1/pagination';
-import Link from 'umi/link';
-import router from 'umi/router';
 
 
 export default function() {
@@ -17,7 +14,7 @@ export default function() {
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <Dropdown />
       <br />
-      <p>111111111</p>
+      <p>YZH</p>
       <br />
       <Pagination pages={page} />
       <br />

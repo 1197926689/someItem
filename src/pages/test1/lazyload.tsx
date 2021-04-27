@@ -13,7 +13,7 @@ const lazyload = ()=>{
 
     var imgs = document.querySelectorAll('img');
     //offsetTop是元素与offsetParent的距离，循环获取直到页面顶部
-    function getTop(e) {
+    function getTop(e:any) {
         var T = e.offsetTop;
         while(e = e.offsetParent) {
             T += e.offsetTop;

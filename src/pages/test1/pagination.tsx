@@ -10,13 +10,13 @@ const Pagination: React.FC<PaginationItem> = props => {
 
   let totalpages = []; //总页数
 
-  function prev(e) {
+  function prev(e:any) {
     if (active == 1) {
       e.target.style.cursor = 'not-allowed';
     }
   }
 
-  function next(e) {
+  function next(e:any) {
     if (active == props.pages) {
       e.target.style.cursor = 'not-allowed';
     }
