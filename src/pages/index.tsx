@@ -17,7 +17,7 @@ export default function() {
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <Dropdown />
       <br />
-      <Link to="/">aaaaa</Link>
+      <p>111111111</p>
       <br />
       <Pagination pages={page} />
       <br />
